@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.rediff_softassert">
+      <class name="data_handling_properties.rediff_config">
         <methods>
-          <include name="testNGvalidation"/>
+          <include name="validatesiginlink"/>
         </methods>
-      </class> <!-- TestNg.rediff_softassert -->
+      </class> <!-- data_handling_properties.rediff_config -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

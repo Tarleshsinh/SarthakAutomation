@@ -36,8 +36,13 @@ public class FbDropdown {
 		select = new Select(driver.findElement(By.id("year")));
 		select.selectByVisibleText("1990");
 		
-		driver.findElement(By.xpath("//*[contains(text(),'Male')]")).click();
-		driver.close();
+		driver.findElement(By.xpath("//*[contains(text(),'Custom')]")).click();
+		Thread.sleep(3000);
+		
+		select = new Select(driver.findElement(By.xpath("//select[@name='preferred_pronoun']")));
+		//select.selectByVisibleText("She :Wish him a happy birthday!");
+		select.selectByValue("6");
+		//driver.close();
 		
 
 

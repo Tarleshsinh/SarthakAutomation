@@ -14,7 +14,7 @@ public class irctcalert {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.amazon.com");
+		driver.get("https://www.irctc.com");
 		Alert alert=driver.switchTo().alert();
 		System.out.println(alert.getText());
 		alert.accept();

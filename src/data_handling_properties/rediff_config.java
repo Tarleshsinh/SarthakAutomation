@@ -42,6 +42,7 @@ public void validatesiginlink() throws InterruptedException {
 	 driver.findElement(By.xpath(prop.getProperty("x-path4"))).click();
 	 driver.findElement(By.xpath(prop.getProperty("x-path5"))).click();
 	 driver.findElement(By.xpath(prop.getProperty("x-path6"))).click();
+	 driver.close();
 	 
 } 
  }
