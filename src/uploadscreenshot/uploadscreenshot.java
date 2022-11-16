@@ -24,7 +24,7 @@ public class uploadscreenshot {
 		driver.findElement(By.xpath("//button[@id='submitbutton']")).click();
 		Assert.assertTrue(driver.findElement(By.xpath("//h3[@id='res']")).isDisplayed());
 		Thread.sleep(2000);
-		driver.close();
+		//driver.close();
 	}
 
 }
