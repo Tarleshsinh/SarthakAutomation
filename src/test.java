@@ -17,7 +17,7 @@ public class test {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//div[@id='reg_pages_msg']/preceding::a[1]")).click();
 		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Naveen");
-		
+		driver.close();
 		
 		
 	}
